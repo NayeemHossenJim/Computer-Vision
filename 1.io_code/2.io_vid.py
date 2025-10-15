@@ -2,7 +2,8 @@ import os
 import cv2
 
 # read video
-video = cv2.VideoCapture("Cow.mp4")
+vid_path = os.path.join('..','Data','Cow.mp4')
+video = cv2.VideoCapture(vid_path)
 
 # visualize video
 ret = True

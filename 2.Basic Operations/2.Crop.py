@@ -1,8 +1,8 @@
 import os
 import cv2
 
-
-img = cv2.imread('Cow.jpg')
+img_path = os.path.join('..','Data','Cow.jpg')
+img = cv2.imread(img_path)
 print(img.shape)
 cropped_img = img[220:740, 320:940]
 

@@ -1,7 +1,8 @@
 import os
 import cv2
 
-img = cv2.imread('Cow.jpg')
+img_path = os.path.join('..','Data','Cow.jpg')
+img = cv2.imread(img_path)
 resized_img = cv2.resize(img, (640, 640))
 
 print(img.shape)
