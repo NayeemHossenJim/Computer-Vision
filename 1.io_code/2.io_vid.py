@@ -10,7 +10,7 @@ while ret:
     ret, frame = video.read()
 
     if ret:
-        cv2.imshow('frame', frame)
+        cv2.imshow('Cute Cow', frame)
         cv2.waitKey(14)
 
 video.release()
