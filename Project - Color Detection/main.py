@@ -3,8 +3,8 @@ import cv2
 from PIL import Image
 from util import get_limits
 
-yellow = [0, 0, 0]
-vid_path = os.path.join('..','Data','Cow.mp4')
+yellow = [90, 114, 128]
+vid_path = os.path.join('..','Data','Butterfly.mp4')
 cap = cv2.VideoCapture(vid_path)
 
 while True:
