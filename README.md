@@ -399,7 +399,3 @@ Special thanks to all contributors and the open-source community for making this
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%">
 </div>
-
-<div align="center">
-  <i>Built with ❤️ by the Computer Vision Community</i>
-</div>
